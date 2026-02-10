@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() 
+{
+printf("Please enter a sentence:")  ;  
+char unicornia[50];
+     scanf("%[^\n]s",unicornia);
+    /*printf("%c is ascii %d\n", 'A', 'A');
+    printf("%c is ascii %d\n", 'z', 'z');
+    printf("%c is ascii %d\n", 'a', 'a');*/
+char horses;
+
+while(unicornia[horses] != '\0') 
+{
+if  (unicornia[horses] >= 'a' && unicornia[horses] <= 'z' ) 
+unicornia[horses] = unicornia[horses] - 32;
+horses = horses+1;
+}
+ printf("The sentence you entered was %s", unicornia);
+}

@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+printf("What is your name:");
+char unicornia[20];
+scanf("%s",unicornia);
+printf("Hello %s!",unicornia);
+}

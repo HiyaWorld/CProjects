@@ -1,0 +1,25 @@
+
+#include <stdio.h>
+
+int main() 
+{
+    printf("Please enter a number:");
+    int unicornia;
+    scanf("%d",&unicornia);
+int horsie = unicornia;
+int horses = 2;
+
+    while (unicornia>horses)
+    {
+        if (unicornia%horses == 0)
+            {
+                printf("The number you entered is not a prime number.\n");
+                break;
+            }
+            
+        horses = horses + 1;
+    }
+     if 
+        ((horses == unicornia) || (unicornia == 2) || unicornia == 3)
+        printf("You entered a prime number!\n");
+}
